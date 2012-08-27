@@ -8,6 +8,7 @@ gem 'bson_ext', '~> 1.6.4'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'bootstrap-sass', '~> 2.0.4.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -20,10 +21,10 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'rspec-rails', '~> 2.11.0'
   gem 'rb-fsevent', '~> 0.9.1'
+  gem 'guard-rspec', '~> 1.2.1'
 end
 
 group :test do
-  gem 'guard-rspec', '~> 1.2.1'
   gem 'guard-spork', '~> 1.1.0'
   gem 'database_cleaner', '~> 0.8.0'
   gem 'mongoid-rspec', '~> 1.5.4'
